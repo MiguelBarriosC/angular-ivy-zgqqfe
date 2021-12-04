@@ -1,0 +1,21 @@
+<main>
+  <table class="example-full-width" cellspacing="0">
+    <tr>
+      <td>
+        <mat-form-field appearance="fill">
+          <input matInput type="number" [(ngModel)]="n1" (change)="n1Change()"/>
+        </mat-form-field>
+      </td>
+      <td class="td-signo">+</td>
+      <td>
+        <mat-form-field appearance="fill">
+          <input matInput type="number" [(ngModel)]="n2" (change)="n2Change()"/>
+        </mat-form-field>
+      </td>
+      <td class="td-result">
+        <!--Result-->
+        = 0
+      </td>
+    </tr>
+  </table>
+</main>

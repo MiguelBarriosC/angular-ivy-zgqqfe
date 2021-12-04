@@ -1,0 +1,24 @@
+main {
+  position: fixed;
+  right: 0;
+  bottom: 0;
+  background-color: palevioletred;
+  width: 80%;
+  height: 90%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  box-sizing: border-box;
+}
+mat-form-field {
+  width: 100px;
+  height: 100px;
+  font-weight: 600;
+  font-size: x-large;
+}
+.td-signo,
+.td-result {
+  font-weight: 600;
+  font-size: x-large;
+  padding: 20px;
+}
